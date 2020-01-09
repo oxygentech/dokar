@@ -1,5 +1,5 @@
-FROM ubuntu:focal
-LABEL maintainer "Rama Bondan Prakoso <ramanarubp@gmail.com>"
+FROM dokar:env
+LABEL maintainer "oxygenfox (andrysetyoso@gmail.com)"
 
 RUN apt-get update -qq && \
     apt-get upgrade -y && \
